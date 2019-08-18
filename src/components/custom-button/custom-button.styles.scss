@@ -6,7 +6,7 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   margin: 5px;
-  font-size: 15px;
+  font-size: 14px;
   background-color: black;
   color: white;
   text-transform: uppercase;
@@ -14,12 +14,23 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
-  transition: 1s ease-in;
+  transition: 0.8s ease-in;
 
   &:hover {
+    font-size: 15px;
     background-color: white;
     color: black;
     border: 1px solid black;
-    transition: 1s ease-out;
+    transition: 0.8s ease-out;
+  }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
+  }
+
+  &:hover {
+    background-color: #0861f0;
+    border: none;
   }
 }
